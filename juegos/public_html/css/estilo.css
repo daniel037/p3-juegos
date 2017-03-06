@@ -1,0 +1,80 @@
+/* 
+    Created on : 20-Feb-2017, 09:40:04
+    Author     :daniel s
+*/
+
+h1{
+    text-align:center;
+    color: gold;
+    background-color:gray;
+}
+h2{
+    text-align:center;
+    font-style: italic;
+}
+body{
+    font-family: "Tahoma";
+    font-size: 12pt;
+    background-color: #E5E7E9  ;
+}
+nav{
+    text-align: center;
+}
+a{
+    display:inline-block;
+    width: 148px;
+    height: 50px;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    background-color: dimgray;  
+    border: 1px silver solid; 
+    box-shadow: 3px 3px 4px black;
+    line-height: 50px;
+}
+
+#frmjuego{
+    width: 80%;
+    border: 4px black solid;
+    border-radius: 10px;
+    margin: auto;
+    pudding: 10px; 
+    background-color:silver;
+}
+
+
+.entradas{
+    border: 1px blue solid;
+    margin: 10px;
+}
+.entradas:focus{
+    background-color: yellow;
+}
+
+.boto{
+    display:inline-block;
+    width: 148px;
+    height: 50px;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    background-color: dimgray;  
+    border: 1px silver solid; 
+    box-shadow: 3px 3px 4px black;
+    line-height: 50px;
+}
+
+#divImg, #divMsg{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#divImg{
+    border:2px dimgrey solid;
+    border-radius: 5px;
+}
+
+img{
+    margin-right: 20px;
+}
